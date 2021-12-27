@@ -160,8 +160,8 @@ exports.postForgotPass = (req, res, next) => {
       var transporter = nodemailer.createTransport({
         service: "Gmail",
         auth: {
-          user: "nocodenolife2527@gmail.com",
-          pass: "password2527@"
+          user: "nguyenlamprocode@gmail.com",
+          pass: "botlbctrkgnc1g"
         }
       });
       var tpass = randomstring.generate({
